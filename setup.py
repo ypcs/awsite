@@ -38,4 +38,9 @@ setup(name='awsite',
         'Topic :: Internet :: WWW/HTTP :: Site Management',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         ],
+    entry_points={
+        'console_scripts': [
+            'awsite = awsite.core:main',
+        ],
+    },
     )
