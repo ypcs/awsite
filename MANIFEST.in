@@ -1,0 +1,2 @@
+include RELEASE-VERSION
+recursive-include docs *.txt
