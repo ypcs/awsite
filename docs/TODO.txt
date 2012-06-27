@@ -1,0 +1,14 @@
+===========
+TODO
+===========
+
+ * create new sites
+  * S3 Bucket: awsite-$DOMAIN
+   * protected, only CF can download
+  * CloudFront Distribution
+   * origin: S3 Bucket
+   * (in future) protected CF distributions
+  * Route53 DNS mappings
+   * record $DOMAIN IN CNAME $MYDIST.cloudfront.net, www.$DOMAIN IN CNAME $DOMAIN
+ * modify existing sites
+ * delete existing sites
