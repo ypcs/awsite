@@ -1,0 +1,6 @@
+*~
+*.pyc
+RELEASE-VERSION
+MANIFEST
+dist
+build
