@@ -4,3 +4,4 @@ RELEASE-VERSION
 MANIFEST
 dist
 build
+deb_dist
